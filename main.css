@@ -1,0 +1,308 @@
+/*------ RESET ------*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    text-decoration: none;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #414141;
+    ;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/*------ MAIN ------*/
+header {
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
+    background-size: cover;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 1px 1px #313131, 
+                2px 2px #313131, 
+                3px 3px #313131;  
+}
+header * {
+    background: black;
+    display: inline-block;  
+    text-align: center;
+    font-size: 2em;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-right: 5px;
+    height: 48px;
+}
+.logo{
+    position: absolute; 
+    top: 3px;
+    left: 8%;
+}
+
+ul {
+    width: 100%;
+    height: 40px;
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+li {
+    margin-top: 11px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul a{
+    color: #009b74;
+    font-size: 18px;
+}
+
+main {
+    background: #414141;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 2em;
+}
+.heading{
+    padding-top: .3em;
+}
+.hero {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 2em;
+    padding-right: 3em;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px #313131, 
+                 2px 2px #313131, 
+                 3px 3px #313131,
+                 4px 4px #313131, 
+                 5px 5px #313131, 
+                 6px 6px #313131;
+}
+.hero img{
+    opacity: .5;
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    visibility: hidden;
+}
+.rotated:hover{
+    transform: rotate(45deg);
+}
+.headline {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-shadow: 1px 1px #313131, 
+                 2px 2px #313131, 
+                 3px 3px #313131;
+}
+.bio{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    line-height: 2em;
+    font-size: 1.2em; 
+}
+.cta{
+    text-align: center;
+    margin-top: 1.2em;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    background-size: cover;
+    height: 30px;
+}
+button {
+    background-color:#009b74;
+	border-radius: 28px;
+	border:1px solid #009b74;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #12654f;
+}
+button a{
+    color: white;
+    font-weight: bold;;
+    border: none;
+}
+button:hover {
+    background-color:#1bb488;
+  }
+button:active{
+    position:relative;
+	top:1px;
+}
+button:focus{
+    outline: 0;
+}
+address ul{
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+address a{
+    color: #ffffff;
+}
+address a:hover{
+    color: #98d3c4;
+}
+/* ---- APP Display ----- */
+.app-container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+.app-container a{
+    font-size: 16px;
+    color: #ffffff; 
+}
+.app-link {
+    text-align: center;
+    padding: 10px;
+}
+h2{ 
+font-size: 2em;
+text-align: center;
+}
+.app-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.app-caption{
+    color: #ffffff;
+    text-align: center;
+}
+.app-cap{ 
+    background-color: #159a75;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px
+}
+/*------ CONTACT BOXES------*/
+.contact-flex{
+    display: flex;
+    flex-direction: column;
+}
+.contact-box {
+    color: red;
+    background-color: lightgray; 
+    margin: 5% auto;
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+.contact-con{
+    height: 180px;
+    width: auto;
+    padding: 5% 15% 0% 15%; 
+}
+
+.contact, .contact *{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: inherit;
+    color: #12654f;   
+}
+
+/*------ 600PX SCREEN BREAK ------*/
+@media screen and (min-width: 600px) {
+
+.logo{
+    position: absolute; 
+    top: 20%
+    left: 8%;
+}
+/* nav list item*/
+ul a{ 
+    font-size: 18px;
+}
+.hero img{
+    visibility: visible;
+    opacity: .1;
+}
+.hero {
+    padding-left: 3em;
+}
+/* APP EXAMPLE DISPLAY*/
+
+.app-container a:hover{
+    color: #98d3c4; 
+}
+.app-container:hover .image{
+    opacity: 0.3;
+}
+.app-container:hover .overlay{
+    opacity: 1;
+    background-image: url("final-score.png");
+}
+.app-caption{
+    visibility: hidden;
+}
+}
+/*------ 800PX SCREEN BREAK ------*/
+@media screen and (min-width: 800px) {
+ .hero img{
+     opacity: .5;
+     right: 4em;
+    }
+ .hero {
+     padding-left: 3em;
+ }
+ .headline {
+    max-width: 500px;
+}
+.contact-flex{
+    flex-direction: row;
+}
+}
+/*------ 1000PX SCREEN BREAK ------*/
+@media screen and (min-width: 1000px) {
+    .hero {
+        max-width: 800px;
+    }
+    .hero img{
+        opacity: .5;
+        right: 5em;
+       }
