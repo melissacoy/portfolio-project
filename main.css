@@ -67,7 +67,7 @@ li {
     margin-left: auto;
 }
 ul a{;
-    color: #3D9970;
+    color: #12654f;
     font-size: 18px;
 }
 main {
@@ -135,7 +135,7 @@ footer {
     height: 30px;
 }
 .button {
-    background-color:#3D9970;
+    background-color:#12654f;
 	border-radius: 28px;
 	border:1px solid #12654f;
 	display:inline-block;
@@ -211,7 +211,7 @@ text-align: center;
     text-align: center;
 }
 .app-cap{ 
-    background-color: #3D9970;
+    background-color: #12654f;
     color: white;
     font-size: 16px;
     padding: 16px 32px
