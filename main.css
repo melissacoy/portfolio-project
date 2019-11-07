@@ -151,8 +151,8 @@ footer {
     border: none;
 }
 .button:hover {
-    background-color:#12654f;
-    color: #ffffff;
+    background-color:#98d3c4;
+    color: #313131;
   }
 .button:active{
     position:relative;
