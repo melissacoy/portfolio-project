@@ -143,22 +143,22 @@ footer {
 .button {
     background-color:#009b74;
 	border-radius: 28px;
-	border:1px solid #009b74;
+	border:1px solid #12654f;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color: #414141;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #12654f;
 }
 .button a{
-    color: white;
     font-weight: bold;;
     border: none;
 }
 .button:hover {
     background-color:#12654f;
+    color: #ffffff;
   }
 .button:active{
     position:relative;
