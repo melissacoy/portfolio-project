@@ -3,15 +3,12 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     color: white;
-    font-family: 'Cabin', sans-serif;
-    
-  }
-  
+    font-family: 'Cabin', sans-serif;  
+  } 
   *, *:before, *:after {
     box-sizing: inherit;
     text-decoration: none;
   }
-  
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
@@ -56,7 +53,6 @@ header * {
     top: 3px;
     left: 8%;
 }
-
 ul {
     width: 100%;
     height: 40px;
@@ -70,12 +66,10 @@ li {
     margin-right: auto;
     margin-left: auto;
 }
-
 ul a{;
     color: #12654f;
     font-size: 18px;
 }
-
 main {
     background: #414141;
     font-family: 'Cabin', sans-serif;
@@ -130,7 +124,7 @@ main {
     text-align: center;
     margin-top: 1.2em;
 }
-.break{
+.break {
     display: block;
 }
 footer {
