@@ -141,16 +141,16 @@ footer {
     height: 30px;
 }
 .button {
-    background-color:#009b74;
+    background-color:#00A566;
 	border-radius: 28px;
 	border:1px solid #12654f;
 	display:inline-block;
 	cursor:pointer;
-	color: #414141;
+	color: #ffffff;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #12654f;
+	text-shadow:0px 1px 0px #313131;
 }
 .button a{
     font-weight: bold;;
@@ -217,7 +217,7 @@ text-align: center;
     text-align: center;
 }
 .app-cap{ 
-    background-color: #159a75;
+    background-color: #00A566;
     color: white;
     font-size: 16px;
     padding: 16px 32px
@@ -228,7 +228,6 @@ text-align: center;
     flex-direction: column;
 }
 .contact-box {
-    color: red;
     background-color: lightgray; 
     margin: 5% auto;
     height: 240px;
